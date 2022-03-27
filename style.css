@@ -56,7 +56,7 @@ nav ul{
 nav ul li{
     list-style: none;
     display: inline-block;
-    color: #000;
+    color: #fff;
     font-family: 'releway', sans-serif;
     padding: 15px 15px;
     font-weight: 300;
@@ -205,6 +205,14 @@ body.gelap{
 /* efek gelap selesai */
 
 /* footer */
+footer{
+    position: relative;
+    bottom:0;
+    left: 0;
+    margin:0;
+    padding-top:200px;
+}
+
 #contact {
     background-color:rgba(32, 155, 255, 0.589);
     padding:10px;
@@ -238,6 +246,23 @@ h3 {
 }
 /* footer end */
 
+.desc{
+    position: relative;
+    top: 150px;
+    margin: 0 10%;
+}
+
+.desc h1{
+    line-height: 60px;
+}
+
+.desc .iframe{
+    position: relative;
+    left:100px;
+    right: auto;
+    margin: 0;
+    padding: 0;
+}
 
 /* carousel */
 .slides{

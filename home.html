@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-section">
+            <img src="img/book-logo.png" alt="logo" id="logo" >
+            <p class="title">Ruang Siswa</p>
+        </div>
+        <div class="header-section">
+            <nav>
+                <ul>
+                    <li><div class="wrap"><a href="login.html">LOG IN</a></div></li>
+                    <li><div class="wrap"><a href="#contact">ABOUT US</a></div></li>
+                    <!-- <li><div class="wrap"><a href="register.html">REGISTER</a></div></li> -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="slides">
+            <div class="slide">
+              <img src="img/gambar1.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="img/gambar2.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="img/gambar3.jpg" alt="">
+            </div>
+            <div class="navigation">
+              <a class = "prev" onclick = "plusSlides(-1)">&#10094;</a>
+              <a class = "next" id="auto" onclick = "plusSlides(1)">&#10095;</a>
+            </div>
+        </div>
+        <div class="desc">
+            <h1>
+                StudEasy
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut illum iure provident perferendis quia eligendi, veritatis natus repellat ad repudiandae quos inventore vitae saepe praesentium, nesciunt esse quae est totam, incidunt soluta quaerat voluptatibus accusantium? Dolorum id mollitia incidunt. Nihil labore perspiciatis quibusdam fugit corporis quae aliquid nemo, assumenda dolore impedit dignissimos a quos atque sint numquam dolor libero nisi ducimus ad voluptatum expedita ex facilis ut! Adipisci, vitae dolore pariatur at hic culpa libero quidem molestiae sunt officiis quasi, sequi dicta corrupti, quisquam a provident modi! Alias ipsum voluptate quas fugiat voluptatem et! At voluptates laborum sunt labore delectus dolores cumque tempora ad similique aliquam, ex qui officiis, dignissimos nemo quos perspiciatis. Fuga, dicta consequatur cumque sequi deleniti quaerat ratione? Laudantium, saepe labore. Rerum ipsa, quibusdam earum quis sunt tempora, architecto neque blanditiis dignissimos hic vero esse excepturi tempore aliquam alias nesciunt culpa ad modi. Voluptatem quisquam minima laudantium quidem incidunt fugit nisi dolorem! Accusamus totam velit sed, expedita accusantium magnam at! Voluptatum tempora quam, suscipit saepe, amet aliquam dicta numquam excepturi expedita, nobis fugiat? Sapiente unde quas libero voluptatem accusamus, accusantium assumenda excepturi, debitis temporibus quidem repudiandae ex repellendus illum consequuntur. Nemo optio illum cumque amet asperiores harum.
+            </p>
+        </div>
+        <br>
+        <div class="desc">
+            <h1>
+                Maps
+            </h1>
+            <div class="iframe">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15842.34911416936!2d107.725514!3d-6.9398283!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x355eff6734ed9167!2sUniversitas%20Pendidikan%20Indonesia%20-%20Kampus%20UPI%20Cibiru!5e0!3m2!1sen!2sid!4v1648368143477!5m2!1sen!2sid"
+                width="1000" height="400"
+                style="border:0;"
+                allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="contact">
+            <div class="wrapper">
+                <div class="footer">
+                    <div class="footer-section">
+                        <div class="title-foot">
+                        <h3>Ruang Siswa</h3>
+                        </div>
+                    </div>
+                    <div class="footer-section">
+                        <h3>About</h3>
+                        <p>Kursus Online memberikan layanan pembelajaran yang menarik dan interaktif. Temukan beragam materi serta modul edukasi untuk meningkatkan kemampuan akademikMu. Waktunya Belajar!</p>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Address</h3>
+                        <p>Jl. Yang Diridhai, Aamiin </p>
+                        <p>Kode Pos: 533655</p>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Social</h3>
+                        <p><b>Instagram: </b>@StudEasy</p>
+                    </div>
+                </div>
+                <div class="button">
+                    <button class="tombol-light" onclick="ubahWarna()">Light Mode</button>
+                    <button class="tombol-dark" onclick="ubahWarna()">Dark Mode</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+      <script src="script.js"></script>
+</body>
+</html>
