@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruang Siswa</title>
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+    <header>
+        <div class="header-section">
+            <img src="img/book-logo.png" alt="logo" id="logo" >
+            <p class="title">Ruang Siswa</p>
+        </div>
+        <div class="header-section">
+            <nav>
+                <ul>
+                    <li><div class="wrap">HOME</div></li>
+                    <li><div class="wrap"><a href="#contact">ABOUT US</a></div></li>
+                    <li><div class="wrap"><a href="register.html">REGISTER</a></div></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="content">
+            <div class="form">
+                <fieldset>
+                    <div class="center">
+                        <lagend class="legend"><p>Login</p></lagend>
+    
+                    </div>
+                    <table>
+                        <tr>
+                            <td><label>Email</label></td>
+                            <td>: <input type="email" name="email" placeholder="Masukan email"></td>                    
+                        </tr>
+                        </tr>
+                            <td><label>Password</label></td>
+                            <td>: <input type="password" name="password" placeholder="Masukan Password"></td>                                    
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <input type="submit" name="submit" value="Login">
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </div>
+        </div>
+
+        <div id="contact">
+            <div class="wrapper">
+                <div class="footer">
+                    <div class="footer-section">
+                        <div class="title-foot">
+                        <h3>Ruang Siswa</h3>
+                        </div>
+                    </div>
+                    <div class="footer-section">
+                        <h3>About</h3>
+                        <p>Kursus Online memberikan layanan pembelajaran yang menarik dan interaktif. Temukan beragam materi serta modul edukasi untuk meningkatkan kemampuan akademikMu. Waktunya Belajar!</p>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Address</h3>
+                        <p>Jl. Yang Diridhai, Aamiin </p>
+                        <p>Kode Pos: 533655</p>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Social</h3>
+                        <p><b>Instagram: </b>@StudEasy</p>
+                    </div>
+                </div>
+                <div class="button">
+                    <button class="tombol-light" onclick="ubahWarna()">Light Mode</button>
+                    <button class="tombol-dark" onclick="ubahWarna()">Dark Mode</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+<script src="script.js"></script>
+</body>
+</html>
